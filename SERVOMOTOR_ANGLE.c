@@ -1,4 +1,5 @@
 #include<stdio.h>
+/*#include <stdlib.h>*/
 
 
 /*CREO UNA FUNCIÓN PARA EVALUAR EL CARACTER DE LA LISTA. (YA SE POSICION 1,2 o 3)*/
@@ -96,6 +97,9 @@ int main ()
     lista[3] = '\0'; // Agregamos el carácter nulo al final
 
     printf("%s \n",lista);
+
+    /*EN CASO DE QUERER USAR LA LIBRERÍA STLIB, DESCOMENTAR ESTA FUNCIÓN*/
+    /*angulo= atoi(lista);*/
 
     angulo = chartoint(lista[0],lista[1],lista[2]);
 
